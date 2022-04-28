@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com..mycompany.app</groupId>
-  <artifactId>adressbook_seleniium</artifactId>
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>myaddressbook_selenium_ide</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>adressbook_seleniium</name>
+  <name>myaddressbook_selenium_ide</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -17,30 +17,30 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-		
+
   <dependencies>
-    <dependency>
+   <!--  <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
-    </dependency>
+    </dependency> -->
     <dependency>
-	<groupId>junit</groupId>
-	<artifactId>junit</artifactId>
-	<version>3.8.1</version>
-	<scope>test</scope>
-	</dependency>
-	<dependency>
-	<groupId>org.seleniumhq.selenium</groupId>
-	<artifactId>selenium-java</artifactId>
-	<version>3.11.0</version>
-	</dependency>
-	<dependency>
-	<groupId>org.testng</groupId>
-	<artifactId>testng</artifactId>
-	<version>6.14.3</version>
-	</dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>3.8.1</version>
+<scope>test</scope>
+</dependency>
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-java</artifactId>
+<version>3.11.0</version>
+</dependency>
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>6.14.3</version>
+</dependency>
   </dependencies>
 
   <build>
