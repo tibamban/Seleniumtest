@@ -10,8 +10,9 @@ public class App
 {
     public static void main( String[] args )
     {
-    	System.setProperty("webdriver.chrome.driver","/Users/adreamer/Downloads/chromedriver");
+    	System.setProperty("webdriver.chrome.driver","/home/ubuntu/selenium/chromedriver");
     	ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless");
     	WebDriver driver = new ChromeDriver(chromeOptions);
     	System.out.println("Well here we are with Selenium !");
     	driver.get("http://54.89.187.59:8888/");
